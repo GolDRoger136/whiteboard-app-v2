@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "WhiteboardApp",
+    "slug": "whiteboard-app",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.whiteboardapp.student",
+      "permissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow WhiteboardApp to access your photos so you can add a question image."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c5eb0f82-bb6e-4061-8cff-31e92eaa8846"
+      }
+    }
+  }
+}
