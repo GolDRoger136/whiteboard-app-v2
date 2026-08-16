@@ -20,6 +20,15 @@
         {
           "photosPermission": "Allow WhiteboardApp to access your photos so you can add a question image."
         }
+      ],
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
       ]
     ],
     "extra": {
